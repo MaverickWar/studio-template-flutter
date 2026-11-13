@@ -1,0 +1,26 @@
+name: studio_app
+description: "An app made with Universal App Studio."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^9.0.0
+  material_ui: ^1.1.0
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # The look: Universal App Studio rewrites this file when the design changes.
+  assets:
+    - design/tokens.json
